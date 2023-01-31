@@ -1,6 +1,11 @@
-﻿No_pesanan,Id_makanan,Jml_makanan,Id_minuman,Jml_minuman,Tgl_pesan,Total_harga
-PMM00A1,MK02,1,MN02,1,12/12/2022,"Rp. 12.000,00"
-PMM00A2,MK04,1,MN01,1,12/12/2022,"Rp. 13.000,00"
-PMM00A3,MK01,1,MN04,1,12/17/2022,"Rp. 18.000,00"
-PMM00A4,MK03,1,MN01,1,12/19/2022,"Rp. 13.000,00"
-PMM00A5,MK03,2,MN06,1,12/20/2022,"Rp. 15.000,00"
+﻿Id_pc,Jenis_pc,Harga_sewa (Harga_sewa_per_jam)
+PC001,Medium,"Rp. 5.000,00"
+PC002,Medium,"Rp. 5.000,00"
+PC003,Medium,"Rp. 5.000,00"
+PC004,Medium,"Rp. 5.000,00"
+PC005,High,"Rp. 7.000,00"
+PC006,High,"Rp. 7.000,00"
+PC007,High,"Rp. 7.000,00"
+PC008,High,"Rp. 7.000,00"
+PC009,Ultra,"Rp. 10.000,00"
+PC010,Ultra,"Rp. 10.000,00"
