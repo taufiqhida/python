@@ -1,6 +1,6 @@
 # python
 Ketua : 
-Ferina
+Ferina Nur Wahyumi 
 Anggota
 Bagas Arya Amirul Jawad
 Muhamad Taufiq
