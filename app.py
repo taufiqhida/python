@@ -1,5 +1,13 @@
 import functools
 import streamlit as st
+import simpleaudio as sa
+
+def play_music():
+    wave_obj = sa.WaveObject.from_wave_file("music.wav")
+    play_obj = wave_obj.play()
+
+if _name_ == "_main_":
+    play_music()
 
 tab_selected = st.sidebar.selectbox("Select a tab", ["Minuman", "Makanan", "Tab 3"])
 
@@ -26,8 +34,8 @@ if tab_selected == "Minuman":
         return data_rating
 
     def main():
-        st.title("Amalia Diner Menu")
-        st.write("Berikut adalah menu cafe Amalia Diner:")
+        st.title("NIAN COFFEE")
+        st.write("Berikut adalah menu cafe NIAN COFFEE:")
 
         harga_minimum = st.number_input("Masukkan harga minimum:", value=5000, step=1000)
         harga_maksimum = st.number_input("Masukkan harga maksimum:", value=8000, step=1000)
@@ -64,8 +72,8 @@ if tab_selected == "Makanan":
         return data_rating
 
     def main():
-        st.title("Amalia Los Menu")
-        st.write("Berikut adalah menu cafe Amalia Diner:")
+        st.title("NIAN COFFEE")
+        st.write("Berikut adalah menu cafe NIAN COFFEE:")
 
         harga_minimum = st.number_input("Masukkan harga minimum:", value=5000, step=1000)
         harga_maksimum = st.number_input("Masukkan harga maksimum:", value=8000, step=1000)
